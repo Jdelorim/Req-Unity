@@ -802,7 +802,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 34.9}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 682.37, y: 264.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &927871340
 MonoBehaviour:
@@ -836,7 +836,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &927871341
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -933,8 +933,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb5cb4591defc247a17c1cf2ceee873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  movieNameinput: {fileID: 844484773}
   movieName: Pulp Fiction
-  responseText: {fileID: 428971154}
+  ResponseText: {fileID: 927871340}
 --- !u!4 &1664572357
 Transform:
   m_ObjectHideFlags: 0
